@@ -83,6 +83,13 @@ def get_emotion(user_input):
 st.set_page_config("Chatbot", layout="wide")
 
 # 🌟 Scrolling Banner
+
+
+st.markdown("""
+<h2 style='text-align: center; color: #3F51B5;'>🤖 Friendly Chatbot & Sentiment Detector</h2>
+<p style='text-align: center; font-size:18px;'>Talk like a friend. I reply & feel your emotion too 💬❤️</p>
+""", unsafe_allow_html=True)
+
 st.markdown("""
     <style>
     .scrolling-banner {
@@ -151,11 +158,6 @@ st.markdown("""
         margin-top:15px;
     }
     </style>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<h2 style='text-align: center; color: #3F51B5;'>🤖 Friendly Chatbot & Sentiment Detector</h2>
-<p style='text-align: center; font-size:18px;'>Talk like a friend. I reply & feel your emotion too 💬❤️</p>
 """, unsafe_allow_html=True)
 
 # ======================
