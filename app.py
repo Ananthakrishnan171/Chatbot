@@ -121,6 +121,9 @@ st.markdown("""
 <h2 style='text-align: center; color: #3F51B5;'>🤖 Friendly Chatbot & Sentiment Detector</h2>
 <p style='text-align: center; font-size:18px;'>Talk like a friend. I reply & feel your emotion too 💬❤️</p>
 """, unsafe_allow_html=True)
+<div class="scrolling-banner">
+    100% Placement | Top Faculty | Research Driven | Hackathons | Industry Collaboration
+</div>
 
 # ======================
 # 🧠 Session State Init
