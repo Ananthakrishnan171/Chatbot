@@ -186,7 +186,7 @@ spotify_embed_links = {
     "depression": "https://open.spotify.com/embed/playlist/4GX1yWidUcdCCuIJZSX4Rc",
     "love": "https://open.spotify.com/embed/playlist/6qEZQ1OXaYJaCJHeSHVxO7",
     "angry": "https://open.spotify.com/embed/playlist/2Lnt48sabnkqVZqyFvpbq9",
-    "emotional": "https://open.spotify.com/embed/track/2Osew72vzCf361dtOEF7bB"
+    "emotional": "https://open.spotify.com/embed/playlist/6MrZXUFglHW00i4EGbj09l"
 }
 
 # =====================
