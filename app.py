@@ -11,7 +11,7 @@ import os
 MATCH_THRESHOLD = 75  # Match score threshold (0-100)
 
 # ============================
-# 🧠 Load & Train Chatbot Model
+# 🧐 Load & Train Chatbot Model
 # ============================
 if os.path.exists("Ananth.csv"):
     try:
@@ -34,7 +34,7 @@ else:
     st.stop()
 
 # ===============================
-# 🧠 Load & Train Sentiment Model
+# 🧐 Load & Train Sentiment Model
 # ===============================
 if os.path.exists("friendly_emotion_chatbot.csv"):
     try:
@@ -82,16 +82,42 @@ def get_emotion(user_input):
 # ===================
 st.set_page_config("Chatbot", layout="wide")
 
-# 🎉 Moving Banner
+# 🌟 Scrolling Banner
 st.markdown("""
-    <div style="background-color:#673AB7; padding: 10px 0; border-radius: 8px; overflow: hidden;">
-        <marquee behavior="scroll" direction="right" scrollamount="6" style="color: white; font-weight: bold; font-size: 18px;">
-            🤖 Welcome to Tanglish Emotion Chatbot – Feel, Chat & Vibe with Music 🎵
-        </marquee>
+    <style>
+    .scrolling-banner {
+        background-color: #673AB7;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        height: 30px;
+    }
+    .scrolling-banner::before {
+        content: attr(data-text);
+        position: absolute;
+        white-space: nowrap;
+        will-change: transform;
+        animation: scroll-left 20s linear infinite;
+    }
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    </style>
+    <div class="scrolling-banner" data-text="100% Placement | Top Faculty | Research Driven | Hackathons | Industry Collaboration">
+        100% Placement | Top Faculty | Research Driven | Hackathons | Industry Collaboration
     </div>
 """, unsafe_allow_html=True)
 
-# 🖌️ Style
 st.markdown("""
     <style>
     .main-container {
@@ -133,7 +159,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ======================
-# 🧠 Session State Init
+# 🧐 Session State Init
 # ======================
 if "history" not in st.session_state:
     st.session_state.history = []
@@ -153,7 +179,7 @@ emotion_color_map = {
     "depression": "#455A64"
 }
 
-# 🎧 Spotify playlist embed links
+# 🎿 Spotify playlist embed links
 spotify_embed_links = {
     "happy": "https://open.spotify.com/embed/playlist/2P4Wmt03IQs4DTXVvncReg",
     "sad": "https://open.spotify.com/embed/playlist/0AyOLKzLZZmlliok7bu1mp",
@@ -172,7 +198,7 @@ col1, col2 = st.columns([1, 3])
 with col1:
     st.markdown("<h4>📜 Your Asked Questions</h4>", unsafe_allow_html=True)
 
-    if st.button("🧹 Clear Chat"):
+    if st.button("🩹 Clear Chat"):
         st.session_state.history = []
         st.session_state.user_questions = []
         st.rerun()
