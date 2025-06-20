@@ -111,7 +111,7 @@ st.markdown("""
     </style>
 
     <div class="scrolling-banner">
-        <span> | Aii Unnathaan Unnathaaan | 💼 Chat Pannava Vaanga | Santhosam ah Ponga Prandzz | </span>
+        <span> 🧠 "To understand the user's emotions through conversation and respond like a caring friend with personalized replies and mood-based music."</span>
     </div>
 """, unsafe_allow_html=True)
 # 🚨 Scrolling Banner End
@@ -153,7 +153,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-<h2 style='text-align: center; color: #3F51B5;'>🤖 Friendly Chatbot & Sentiment Detector</h2>
+<h2 style='text-align: center; color: #3F51B5;'>🤖 Friendly Chatbot & Sentiment Doctor</h2>
 <p style='text-align: center; font-size:18px;'>Talk like a friend. I reply & feel your emotion too 💬❤️</p>
 """, unsafe_allow_html=True)
 
