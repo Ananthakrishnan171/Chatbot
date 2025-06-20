@@ -11,7 +11,7 @@ import os
 MATCH_THRESHOLD = 75  # Match score threshold (0-100)
 
 # ============================
-# 🧐 Load & Train Chatbot Model
+# 🧠 Load & Train Chatbot Model
 # ============================
 if os.path.exists("Ananth.csv"):
     try:
@@ -34,7 +34,7 @@ else:
     st.stop()
 
 # ===============================
-# 🧐 Load & Train Sentiment Model
+# 🧠 Load & Train Sentiment Model
 # ===============================
 if os.path.exists("friendly_emotion_chatbot.csv"):
     try:
@@ -82,49 +82,45 @@ def get_emotion(user_input):
 # ===================
 st.set_page_config("Chatbot", layout="wide")
 
-# 🌟 Scrolling Banner
+# 🟪 Custom Right-to-Left Banner Input
+banner_text = st.text_input("🟣 Enter text for scrolling banner:", value="100% Placement | Top Faculty | Research Driven | Hackathons | Industry Collaboration")
 
+# Banner CSS
+st.markdown(f"""
+    <style>
+    .scrolling-banner {{
+        background-color: #6a1b9a;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 8px;
+        overflow: hidden;
+        position: relative;
+        height: 30px;
+        border-radius: 8px;
+        direction: rtl;
+    }}
+    .scrolling-banner span {{
+        display: inline-block;
+        padding-left: 100%;
+        animation: scroll-rtl 15s linear infinite;
+        white-space: nowrap;
+    }}
+    @keyframes scroll-rtl {{
+        0% {{ transform: translateX(100%); }}
+        100% {{ transform: translateX(-100%); }}
+    }}
+    </style>
+    <div class="scrolling-banner"><span>{banner_text}</span></div>
+""", unsafe_allow_html=True)
 
+# Title and Tagline
 st.markdown("""
 <h2 style='text-align: center; color: #3F51B5;'>🤖 Friendly Chatbot & Sentiment Detector</h2>
 <p style='text-align: center; font-size:18px;'>Talk like a friend. I reply & feel your emotion too 💬❤️</p>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-    <style>
-    .scrolling-banner {
-        background-color: #673AB7;
-        color: white;
-        font-weight: bold;
-        font-size: 16px;
-        padding: 10px;
-        overflow: hidden;
-        position: relative;
-        border-radius: 8px;
-        margin-bottom: 10px;
-        height: 30px;
-    }
-    .scrolling-banner::before {
-        content: attr(data-text);
-        position: absolute;
-        white-space: nowrap;
-        will-change: transform;
-        animation: scroll-left 20s linear infinite;
-    }
-    @keyframes scroll-left {
-        0% {
-            transform: translateX(100%);
-        }
-        100% {
-            transform: translateX(-100%);
-        }
-    }
-    </style>
-    <div class="scrolling-banner" data-text="100% Placement | Top Faculty | Research Driven | Hackathons | Industry Collaboration">
-        100% Placement | Top Faculty | Research Driven | Hackathons | Industry Collaboration
-    </div>
-""", unsafe_allow_html=True)
-
+# Chat UI Styles
 st.markdown("""
     <style>
     .main-container {
@@ -161,7 +157,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ======================
-# 🧐 Session State Init
+# 🧠 Session State Init
 # ======================
 if "history" not in st.session_state:
     st.session_state.history = []
@@ -181,7 +177,7 @@ emotion_color_map = {
     "depression": "#455A64"
 }
 
-# 🎿 Spotify playlist embed links
+# 🎵 Spotify playlist embed links
 spotify_embed_links = {
     "happy": "https://open.spotify.com/embed/playlist/2P4Wmt03IQs4DTXVvncReg",
     "sad": "https://open.spotify.com/embed/playlist/0AyOLKzLZZmlliok7bu1mp",
@@ -200,7 +196,7 @@ col1, col2 = st.columns([1, 3])
 with col1:
     st.markdown("<h4>📜 Your Asked Questions</h4>", unsafe_allow_html=True)
 
-    if st.button("🩹 Clear Chat"):
+    if st.button("🧹 Clear Chat"):
         st.session_state.history = []
         st.session_state.user_questions = []
         st.rerun()
