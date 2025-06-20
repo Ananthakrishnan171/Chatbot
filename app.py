@@ -8,7 +8,7 @@ import os
 # ============================
 # ⚙️ Configs
 # ============================
-MATCH_THRESHOLD = 75  # Match score threshold (0-100)
+MATCH_THRESHOLD = 75 # Match score threshold (0-100)
 
 # ============================
 # 🧠 Load & Train Chatbot Model
@@ -82,46 +82,6 @@ def get_emotion(user_input):
 # ===================
 st.set_page_config("Chatbot", layout="wide")
 
-# 🌟 Right-to-Left Scrolling Banner (STATIC UI)
-st.markdown("""
-<style>
-.marquee-container {
-    width: 100%;
-    overflow: hidden;
-    background-color: #6a1b9a;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    border-radius: 8px;
-    padding: 6px 0;
-    margin-bottom: 15px;
-}
-.marquee-text {
-    display: inline-block;
-    white-space: nowrap;
-    padding-left: 100%;
-    animation: scroll-left 15s linear infinite;
-}
-@keyframes scroll-left {
-    0%   { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
-}
-</style>
-
-<div class="marquee-container">
-  <div class="marquee-text">
-    🎯 100% Placement • 🎓 Top Faculty • 💡 Research Driven • ⚙️ Hackathons • 🤝 Industry Collaboration • 🚀 Innovation Focus
-  </div>
-</div>
-""", unsafe_allow_html=True)
-
-# Title and Description
-st.markdown("""
-<h2 style='text-align: center; color: #3F51B5;'>🤖 Friendly Chatbot & Sentiment Detector</h2>
-<p style='text-align: center; font-size:18px;'>Talk like a friend. I reply & feel your emotion too 💬❤️</p>
-""", unsafe_allow_html=True)
-
-# Styles
 st.markdown("""
     <style>
     .main-container {
@@ -155,6 +115,11 @@ st.markdown("""
         margin-top:15px;
     }
     </style>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<h2 style='text-align: center; color: #3F51B5;'>🤖 Friendly Chatbot & Sentiment Detector</h2>
+<p style='text-align: center; font-size:18px;'>Talk like a friend. I reply & feel your emotion too 💬❤️</p>
 """, unsafe_allow_html=True)
 
 # ======================
@@ -230,6 +195,7 @@ with col2:
             </div>
         """, unsafe_allow_html=True)
 
+        # 🎧 Embed Spotify player if emotion matched
         spotify_url = spotify_embed_links.get(emotion)
         if spotify_url:
             st.markdown(f"""
