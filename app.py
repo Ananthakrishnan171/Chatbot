@@ -82,45 +82,46 @@ def get_emotion(user_input):
 # ===================
 st.set_page_config("Chatbot", layout="wide")
 
-# 🟪 Custom Right-to-Left Banner Input
-banner_text = st.text_input("🟣 Enter text for scrolling banner:", value="100% Placement | Top Faculty | Research Driven | Hackathons | Industry Collaboration")
+# 🌟 Right-to-Left Scrolling Banner (STATIC UI)
+st.markdown("""
+<style>
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #6a1b9a;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 6px 0;
+    margin-bottom: 15px;
+}
+.marquee-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    animation: scroll-left 15s linear infinite;
+}
+@keyframes scroll-left {
+    0%   { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+</style>
 
-# Banner CSS
-st.markdown(f"""
-    <style>
-    .scrolling-banner {{
-        background-color: #6a1b9a;
-        color: white;
-        font-weight: bold;
-        font-size: 16px;
-        padding: 8px;
-        overflow: hidden;
-        position: relative;
-        height: 30px;
-        border-radius: 8px;
-        direction: rtl;
-    }}
-    .scrolling-banner span {{
-        display: inline-block;
-        padding-left: 100%;
-        animation: scroll-rtl 15s linear infinite;
-        white-space: nowrap;
-    }}
-    @keyframes scroll-rtl {{
-        0% {{ transform: translateX(100%); }}
-        100% {{ transform: translateX(-100%); }}
-    }}
-    </style>
-    <div class="scrolling-banner"><span>{banner_text}</span></div>
+<div class="marquee-container">
+  <div class="marquee-text">
+    🎯 100% Placement • 🎓 Top Faculty • 💡 Research Driven • ⚙️ Hackathons • 🤝 Industry Collaboration • 🚀 Innovation Focus
+  </div>
+</div>
 """, unsafe_allow_html=True)
 
-# Title and Tagline
+# Title and Description
 st.markdown("""
 <h2 style='text-align: center; color: #3F51B5;'>🤖 Friendly Chatbot & Sentiment Detector</h2>
 <p style='text-align: center; font-size:18px;'>Talk like a friend. I reply & feel your emotion too 💬❤️</p>
 """, unsafe_allow_html=True)
 
-# Chat UI Styles
+# Styles
 st.markdown("""
     <style>
     .main-container {
@@ -177,7 +178,7 @@ emotion_color_map = {
     "depression": "#455A64"
 }
 
-# 🎵 Spotify playlist embed links
+# 🎧 Spotify playlist embed links
 spotify_embed_links = {
     "happy": "https://open.spotify.com/embed/playlist/2P4Wmt03IQs4DTXVvncReg",
     "sad": "https://open.spotify.com/embed/playlist/0AyOLKzLZZmlliok7bu1mp",
