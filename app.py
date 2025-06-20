@@ -82,6 +82,41 @@ def get_emotion(user_input):
 # ===================
 st.set_page_config("Chatbot", layout="wide")
 
+# 🚨 Scrolling Banner Start
+st.markdown("""
+    <style>
+    .scrolling-banner {
+        width: 100%;
+        background-color: #ff4081;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 8px 0;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .scrolling-banner span {
+        display: inline-block;
+        padding-left: 100%;
+        animation: scroll-left 15s linear infinite;
+    }
+
+    @keyframes scroll-left {
+        0%   { transform: translateX(0); }
+        100% { transform: translateX(-100%); }
+    }
+    </style>
+
+    <div class="scrolling-banner">
+        <span>💼 100% Placement | 👨‍🏫 Top Faculty | 🔬 Research Driven | 🧠 Hackathons | 🤝 Industry Collaboration</span>
+    </div>
+""", unsafe_allow_html=True)
+# 🚨 Scrolling Banner End
+
+
 st.markdown("""
     <style>
     .main-container {
@@ -121,9 +156,6 @@ st.markdown("""
 <h2 style='text-align: center; color: #3F51B5;'>🤖 Friendly Chatbot & Sentiment Detector</h2>
 <p style='text-align: center; font-size:18px;'>Talk like a friend. I reply & feel your emotion too 💬❤️</p>
 """, unsafe_allow_html=True)
-<div class="scrolling-banner">
-    100% Placement | Top Faculty | Research Driven | Hackathons | Industry Collaboration
-</div>
 
 # ======================
 # 🧠 Session State Init
