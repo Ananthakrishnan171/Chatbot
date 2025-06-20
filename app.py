@@ -248,4 +248,4 @@ with col2:
 # 🔚 Footer
 # =================
 st.markdown("<hr>", unsafe_allow_html=True)
-st.markdown("<center><small style='color:#555;'>Made with ❤️ using Streamlit • Chat + Mood Aware</small></center>", unsafe_allow_html=True)
+st.markdown("<center><small style='color:#555;'>Made with ❤️ using Streamlit . And Chatbot </small></center>", unsafe_allow_html=True)
