@@ -111,7 +111,7 @@ st.markdown("""
     </style>
 
     <div class="scrolling-banner">
-        <span>💼 Chat Pannava Vaanga | Santhosam ah Ponga Prandzz </span>
+        <span> | Aii Unnathaan Unnathaaan | 💼 Chat Pannava Vaanga | Santhosam ah Ponga Prandzz | </span>
     </div>
 """, unsafe_allow_html=True)
 # 🚨 Scrolling Banner End
