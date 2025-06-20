@@ -111,7 +111,7 @@ st.markdown("""
     </style>
 
     <div class="scrolling-banner">
-        <span>💼 100% Placement | 👨‍🏫 Top Faculty | 🔬 Research Driven | 🧠 Hackathons | 🤝 Industry Collaboration</span>
+        <span>💼 Chat Pannava Vaanga | Santhosam ah Ponga Prandzz </span>
     </div>
 """, unsafe_allow_html=True)
 # 🚨 Scrolling Banner End
