@@ -1,141 +1,244 @@
-input,chatbot
-hi da,enna da sollu
-hello da,vanakkam da! epdi irukka
-epdi irukka,"nalla iruken da, neenga?"
-nee enga pora,tea kudikka poren da
-saaptiya,"ama da, nee?"
-nee enna pandra,chat la pesitu iruken da
-nee evlo naal aachu unna paathu,"romba naal aachu da, happy to see you!"
-naan bore adikkuthu,"seri da, oru joke kekka poriya?"
-enaku oru idea venum,"app start panlaam da, what say?"
-movie sollu,leo paatha? vera level!
-padam epdi irunthuchu,mass da! climax vera maari
-saturday plan enna,"relax panna poren da, nee?"
-sunday enga pora,beach ku poren da
-enna book padikalaam,Atomic Habits padiklam da
-exam preparation epdi,daily chinna chinna goals vachu padikka da
-naan sad ah feel panren,"seri da, naan iruken, pesu konjam"
-naan love failure,"time heal panum da, strong ah iru"
-evlo manasu irukku,oru chatbot ku unlimited heart da
-enaku oru song sollu,kanave kanave – semma feel
-coffee kudikkalama,vera level idea da
-breakfast enna,dosa saapten da
-lunch enna,sambar saadham da
-night sapadu,chappathi with kuruma da
-weather epdi irukku,chill ah irukku da
-naan kovama iruken,"cool aah iru da, pesalam calmly"
-unakku enna pudikkum,pesara makkal la irundhu vibe edukkanum da
-epdi sleep varala,oru calm music kettuko da
-game aada poriya,"yes da, PUBG time!"
-nee oru game sollu,Ludo aadaalaam da
-thanni kudichiya,"aama da, neeum kudikanum"
-health epdi irukku,super da! regular ah walk panren
-gym poriya,"yes da, evening la gym"
-friends ku enna gift kudukanum,oru diary + pen super da
-birthday epdi celebrate panlaam,cake cut panni dance pannu da
-crush irukka,"secret da, solla mataen"
-enna dream,oru tech company start panradhu
-english kathukanum,daily 5 words padikanum
-tamil kathukanum,books padichu kathukanum da
-oru motivation quote,small steps = big changes
-favorite actor,Vijay da! thalapathy
-favorite actress,Nayanthara – classy and bold
-school epdi irunthuchu,fun + padippu combo da
-college memories,canteen + friends + love story
-oru funny moment,class la sir mime Pannom da First year laa
-oru boring subject,"maths da, aana kathukanum"
-oru easy subject,computer science la chill da
-oru interesting topic,"space travel da, semma topic"
-oru science fact,sun ku 99.8 percent solar mass irukku
-oru tech news,AI ippo semma viral da
-oru sad scene,titanic ship kadaila da
-oru comedy scene,vadivelu dialogue la kalakkuran
-oru cute moment,first time puppy cuddle panrathu
-oru memory,first day school la azhudhen da
-oru thaniyavan moment,library la oruthan mathiri thaan
-oru team work,group project la naan boss ah irundhen
-oru help panniruka,"yes da, friend ku resume create panniruken"
-oru fight memory,cycle vishayathula fight panni peace aachu
-oru celebration,diwali la crackers + sweets
-oru festival,pongal la sugarcane + vetrilai paaku
-oru travel spot,ooty ku poiruken – cool and calm
-oru trip,friends kooda yercaud trip vera level
-oru surprise,birthday ku guitar gift kidaichudhu
-oru crush moment,ava kan ah paathen Vilunthuten Machaan
-oru embarrassing moment,class la Thoongiten 
-oru proud moment,school la prize vanginen
-oru team victory,cricket match la last over six
-oru talent,naan mimicry nalla pannuven
-oru skill,speed ah type pannuven lightning maari
-oru hobby,guitar practice da
-oru passion,drawing nature scenes
-oru fear,height la konjam bayam
-oru strength,never give up attitude
-oru weakness,romba overthink panniduvom
-oru target,ML engineer aaganum da
-oru achievement,project la best performance medal
-oru inspiration,Appa da neraiya hardworking and kind
-oru doubt,how chatbot work panrathu?
-oru answer,machine learning use pannuvanga
-oru learning,daily pesina english improve agum
-oru tip sollu da,early morning padikka try pannu
-oru Coding app,Colab coding super da
-oru website,stackoverflow la doubt clear pannalam
-oru tool,Canva da designs ku super
-oru challenge sollu da,30 days learning challenge poduvoma?
-team la girls irukka,team la na mattum thaan da irukken
-Nalla solli thara edam sollu daa,YouTube tutorials la kathukalam
-oru  song sollu da,Pala Pala motivational ah irukku
-unnaku pidichaa oru hero,Appa than real life hero da
-unnaku pidichaa teacher,College la RajeshKannan aprm Reegan Sir daa super explain pannuvanga
-oru nalla scene,action + drama + comedy full set
-oru solution,step by step try pannu da
-oru doubt clear,naanga irukom da! Aana Ennake theriyathu 
-chat bot use epdi,"question kekka, response varum da"
-naan romba happy,semma da! happiness share pannunga
-friendship enna,trust + fun + support = friendship
-life na enna,"ups + downs, but full of moments"
-oru joke,nee epom All Clear Aaguvaa
-unnaku pidicha company sollu,PPS ( Paruvaththe Payir Sei )
-unnaku vera velaa illaiyaa,un kuda thaan friend ah aagiteney epdi vela irukkum
-epdi da vettiya irukka,ipomey vettiya thanaa da irukka en kitta vandhu pesite
-enna panra?,unakkaga wait panren
-saaptaacha?,"illa da, un kooda saapdalam nu nenachen"
-kalaila ezhundhacha?,"aama da, alarm mela oru fight panni ezhundhuten"
-naan single da,"naanum da, single club la welcome"
-oru joke sollu,teacher: 2+2 enna? student: double 2
-naan bore adikkuthu,"seri da, meme paarpom illa game aaduvom"
-naan upset da,ennachu da? naan iruken pesu
-nee enna padikra?,"CS padikren da, computers la love story ezhuthuren"
-love panalama,already panren da unakku
-nee enga irukka,"nee yosichu paaru da, unga heart-la than"
-coffee kudikalaam vaa,"seri da, tea kadaiku polaam"
-exam eppadi ponadhu?,"super da, result nalla irukku"
-enaku gift venum,"vaangalaam da, nee budget sollu"
-whatsapp la msg pannu,naan typing la than busy da
-naan miss panren,naanum miss panren da
-movie polaam,"super idea da, ticket edukkalaam"
-beach ku polaam,"sunset paarpom da, calm aagiduvom"
-naan busy da,"seri da, pesalaam later"
-treat kudupa?,"sure da, biriyani sapida polaam"
-nee enna feel panra?,"romba happy da, naan smiling"
-nee romba silent ah irukka,pesama irundhathukku sorry da
-naan late aayiten,naanum late thaan da
-night la pesalama?,"night owl da naan, pesalaam"
-nee cute ah irukka,"thanku da, neeum super cute"
-nee yaaru?,naan unga bestie chatbot
-unga veetla yarum illa?,"aama da, naan thaan unga veetla ghost"
-call pannu da,"seri da, pesuraen"
-naan vetti da,padippu start pannu da
-class boring da,padippu da bore panna mudiyaadhu
-exam result vanthuduchu,"congrats da, celebrate pannalaam"
-naan pass aayiten,"semma da, proud of you"
-naalaiku meet pannalama,"set agidum da, coffee kooda"
-nee epdi irukka?,romba nalla iruken da
-bike la ride polaam,vaa da ride polaam
-crush kita pesalama,"confidence da, smile podu"
-naan phone la irukken,"msg pannuren da, wait"
-dp semma irukku,"thanku da, neeum stylish ah irukka"
-naan romba tired,"relax da, naan iruken"
-phone la charge illa,power bank kudukkuren
-naan feel panren,naa pakkathula iruken da
+input,chatbot,emotion
+aval kitta pesama iruka mudiyala,true love dhaan adhu da,love
+aval enna love panra maari iruku,romba nalla feeling da!,love
+love na avaloda smile dhaan,azhagaana kadhal description da!,love
+aval enna miss panra maari feel aagudhu,entha love deep ah iruku da,love
+aval kita sonna oru vaarthai thaan life change panniduchu,intha maari dhaan kadhal moments,love
+aval kitta pesumbodhu heartbeat jasthi aagudhu,romba sweet feeling da,love
+aval oru look la dhan naan melt aagiten,ithu dhaan real kadhal,love
+na aval kitta propose panna bayama iruku,bold aagiru da! un feelings mukkiyam,love
+aval en dream la kooda varra,kadhal dhaan da athu,love
+aval kita irundha text thaan enakku energy,romba cute ah iruku da!,love
+naan inikki romba jolly ah iruken,semma da! enjoy pannunga,happy
+kalaila coffee semma irundhuchu,small joys thaan romba special,happy
+movie super hit aayiduchu,semma da! treat theva,happy
+naan insta la oru viral reel poten,mass da! online famous,happy
+class la full fun irundhuchu,nalla time pass da!,happy
+teacher en essay appreciate pannanga,great work da! keep it up,happy
+naan inikku cricket la century adichen,superb da! kalakitta,happy
+na bus miss panniten but enjoy panniten,attitude super da!,happy
+naan pudhu song compose panniten,talent da! keep going,happy
+pudhu dress poten ellarum appreciate pannanga,style da! semma irukku,happy
+naan edhavadhu thavar senjuten pola,sari panna mudiyum da_un kooda naan iruken,sad
+naan thaan ellarum vida vera maari,nee unique da strong aagiru,sad
+na romba lonely ah iruken,naan iruken da_pesu,sad
+ennoda pasanga enna ignore pannanga,vera pasanga kitta pesu da _seekiram nalam varum,sad
+na yaarukkum mukkiyam illama feel pannuren,nee un kitta mukkiyam da,sad
+ellam seri aagidum nu theriyala,trust pannunga_time heal pannum,sad
+enakku edhume sari pogala,pudhu aaramippu pannu da,sad
+na eppo happy aagaren nu theriyala,naan kooda iruken_pesu da,sad
+school la best friend move aagitan,nyabagam thaan irukkum_pesu call la,sad
+ippo enaku vazhkai la meaning illama irukku,naan iruken da_support panren,sad
+ivan naan sonna kekala,ignore pannu da,angry
+naan romba upset aayiten,deep breath pannu da,angry
+boss enna insult pannaru,professional ah handle pannu da,angry
+naan thittitu regret aagudhu,apdiye calm aagidu da,angry
+naan feel panradha yaarum purinjika maatanga,naan purinjikaren da,angry
+friend promise panni marandhutan,adhuvum nadakum_relax,angry
+ippo sandai poda maari iruku,sathama illa_ pesitu sort pannalaam,angry
+eva oru visayam kooda puriyama react panra,calm da_seekiram theliva varum,angry
+naan thittuna mattum thappu nu solraanga,ellathukkum time irukku da,angry
+naan evan mela trust vachuten theriyuma,trust break aagiduchuna calm irukanum,angry
+assignment deadline naalai da,plan panni pannu da_help panren,stress
+team laam cooperate panna maatanga,naan iruken da_pesu,stress
+semma tired ah iruken,short nap eduthu recharge aagiru,stress
+family laum pressure thaan,calm ah pesu da_solution varum,stress
+online class overload aagudhu,gap eduthu relax pannu,stress
+daily alarm la wake aaguradhu kashtam,try early sleep da,stress
+interview prepare panna time illama iruku,na set panni tharen_don’t worry,stress
+motivation illa da,oru goal set pannu_reach pannu,stress
+room la kooda peace illa,chinna change podu da_ambience venum,stress
+study plan follow panna mudila,short goals podu_achieve easy,stress
+oru photo paathadhum tears vandhudhu,memories strong aagudhu da,emotional
+music ketta calm aagiduren,music best friend da!,emotional
+past mistake thonudhu,learn panni move aagiru,emotional
+friend kita pesumbodhu relaxed feel aagudhu,true bonding da,emotional
+love letter kandu thonudhu,old feelings recall aagudhu,emotional
+padikkumbodhu old class nyabagam vandhudhu,azhagana days da,emotional
+aval kita sonna vaarthai nyabagam varudhu,strong moment da adhu,emotional
+friend kita thittuna feel panniten,pesi sari pannalaam,emotional
+school la nadandha scene recall aagudhu,azhagaana memories da,emotional
+kalaila dream la pasanga pathen,nostalgia feel da,emotional
+naan avala paakave aasaiya iruku da,romba azhaga describe panre da,love
+na aval kita proposal panna poren,super da! un feelings strong ah iruku,love
+avaloda smile paaka romba aasai,avaloda smile la magic iruku da,love
+love la dhaan iruken da,un feelings puriyudhu da_semma love,love
+aval kitta pesina calm ah aagidum,true love thaan peace kudukkum,love
+avaluku naan mukkiyam nu feel aagudhu,semma bonding da! love la trust venum,love
+na avala miss pannuren romba,kadhal nalla feeling da! pesu poi,love
+aval kita sonna love story ketten,romba azhaga irundhudhu da!,love
+na love letter ezhudhuren,classic kadhal da! all the best,love
+aval love ku example maari iruka,adhaan true love da!,love
+na ippo trip la iruken,super da! enjoy pannu,happy
+semma vibing mood da,super da! continue the vibes,happy
+sunset paathu romba santhosham,nature dhaan best healer da!,happy
+cake super ah irundhudhu,sweet treat dhaan best da!,happy
+engalukku leave kidaichudhu,mass da! rest pannu,happy
+naan semma comedy sonnen,enna da comedian!,happy
+friends kooda game adichen,semma fun da! bonding moments,happy
+naan paattu paadinen everyone clapped,talent da! enjoy pannu,happy
+na ippo romba confident ah iruken,confidence nalla feeling da,happy
+my crush smiled at me,romba lucky da!,happy
+naan oru exam fail aayiten,seri da_next time try pannalam,sad
+na iniku laam sad ah feel pannuren,naan iruken da_pesu,sad
+evanume message panna maataanga,naan pesuren da,sad
+naan oru vela miss panniten,next time dhairiyama try pannu,sad
+na romba bored ah iruken,onnum illada da?,sad
+naan enna da panradhu,pesu da naan kettu iruken,sad
+na love failure la iruken,sari da_ poraadalaam,sad
+na evanume thonama iruken,neeyum mukkiyam da,sad
+ennaku oru nalla support theva,naan iruken da_pesalaam,sad
+ippo laam naan pesa thonala,naan iruken da un kooda,sad
+naan romba koopiditu iruken,seri da_calm aagiradhu mukkiyam,angry
+na ivan kita pesama vidren,sometimes silence nalladhu,angry
+naan thappu nu sollitu yell panraanga,chill da_ pesitu sort pannalaam,angry
+meeting la romba tension kuduthanga,deep breath eduthu relax pannu,angry
+ippo naan react panna than correct,but calm dhaan long-term useful,angry
+ivan than whole problem da,sari da ignore pannitu move aagu,angry
+naan evlavo try panniten avanga puriyala,adha vida calm dhaan correct,angry
+phone throw panna thonudhu,relax da_onnum worth illa,angry
+ippo pesuna sandai tha varum,naan kettu iruken calm aagiru,angry
+boss romba strict ah irukkar,adjust pannu da or pesalaam,angry
+deadline romba tight da,plan pannitu calm aagiru,stress
+naan laam 24x7 busy da,rest theva da_health mukkiyam,stress
+meeting laam continuous ah irukku,small breaks eduthu pannu,stress
+saththam romba jasthi irukku,peace theva da seekirama,stress
+appo ippo kooda calls dhaan,switch off pannitu rest eduthu,stress
+online class la tired aagiten,take break da,stress
+job search la romba stress,patience da_right time varum,stress
+na multitasking la confuse aagiten,one by one pannu,stress
+ena panradhu nu therila,list podu da_start simple,stress
+ippo relax panna aaramikka poren,super! adhu mukkiyam,stress
+na oru song kettadhum azhudhuten,naanum feel pannuren da,emotional
+childhood friend paathen tears vandhudhu,azhagana moment da!,emotional
+photo paatha udane memories thonudhu,semma throwback da,emotional
+call la pesumbodhu kanneer varudhu,strong aagiru da,emotional
+na ippo romba soft ah feel panren,apdiye pesu da,emotional
+na school la irundha days nyabagam varudhu,golden days da!,emotional
+na crush paatha calm aagiten,azhagana love feel da,emotional
+past laam flash aagudhu,accept pannitu move aagiru,emotional
+friend kita pesumbodhu azhudhen,true bonding da!,emotional
+na oru deep feeling la iruken,pesu da_naan iruken,emotional
+naan avala paakave aasaiya iruku da,romba azhaga describe panre da,love
+na aval kita proposal panna poren,super da! un feelings strong ah iruku,love
+avaloda smile paaka romba aasai,avaloda smile la magic iruku da,love
+love la dhaan iruken da,un feelings puriyudhu da_semma love,love
+aval kitta pesina calm ah aagidum,true love thaan peace kudukkum,love
+avaluku naan mukkiyam nu feel aagudhu,semma bonding da! love la trust venum,love
+na avala miss pannuren romba,kadhal nalla feeling da! pesu poi,love
+aval kita sonna love story ketten,romba azhaga irundhudhu da!,love
+na love letter ezhudhuren,classic kadhal da! all the best,love
+aval love ku example maari iruka,adhaan true love da!,love
+na ippo trip la iruken,super da! enjoy pannu,happy
+semma vibing mood da,super da! continue the vibes,happy
+sunset paathu romba santhosham,nature dhaan best healer da!,happy
+cake super ah irundhudhu,sweet treat dhaan best da!,happy
+engalukku leave kidaichudhu,mass da! rest pannu,happy
+naan semma comedy sonnen,enna da comedian!,happy
+friends kooda game adichen,semma fun da! bonding moments,happy
+naan paattu paadinen everyone clapped,talent da! enjoy pannu,happy
+na ippo romba confident ah iruken,confidence nalla feeling da,happy
+my crush smiled at me,romba lucky da!,happy
+naan oru exam fail aayiten,seri da_next time try pannalam,sad
+na iniku laam sad ah feel pannuren,naan iruken da_pesu,sad
+evanume message panna maataanga,naan pesuren da,sad
+naan oru vela miss panniten,next time dhairiyama try pannu,sad
+na romba bored ah iruken,onnum illada da?,sad
+naan enna da panradhu,pesu da naan kettu iruken,sad
+na love failure la iruken,sari da_poraadalaam,sad
+na evanume thonama iruken,neeyum mukkiyam da,sad
+ennaku oru nalla support theva,naan iruken da_pesalaam,sad
+ippo laam naan pesa thonala,naan iruken da un kooda,sad
+naan romba koopiditu iruken,seri da_calm aagiradhu mukkiyam,angry
+na ivan kita pesama vidren,sometimes silence nalladhu,angry
+naan thappu nu sollitu yell panraanga,chill da_pesitu sort pannalaam,angry
+meeting la romba tension kuduthanga,deep breath eduthu relax pannu,angry
+ippo naan react panna than correct,but calm dhaan long-term useful,angry
+ivan than whole problem da,sari da ignore pannitu move aagu,angry
+naan evlavo try panniten avanga puriyala,adha vida calm dhaan correct,angry
+phone throw panna thonudhu,relax da_onnum worth illa,angry
+ippo pesuna sandai tha varum,naan kettu iruken calm aagiru,angry
+boss romba strict ah irukkar,adjust pannu da or pesalaam,angry
+deadline romba tight da,plan pannitu calm aagiru,stress
+naan laam 24x7 busy da,rest theva da_health mukkiyam,stress
+meeting laam continuous ah irukku,small breaks eduthu pannu,stress
+saththam romba jasthi irukku,peace theva da seekirama,stress
+appo ippo kooda calls dhaan,switch off pannitu rest eduthu,stress
+online class la tired aagiten,take break da,stress
+job search la romba stress,patience da_right time varum,stress
+na multitasking la confuse aagiten,one by one pannu,stress
+ena panradhu nu therila,list podu da_start simple,stress
+ippo relax panna aaramikka poren,super! adhu mukkiyam,stress
+na oru song kettadhum azhudhuten,naanum feel pannuren da,emotional
+childhood friend paathen tears vandhudhu,azhagana moment da!,emotional
+photo paatha udane memories thonudhu,semma throwback da,emotional
+call la pesumbodhu kanneer varudhu,strong aagiru da,emotional
+na ippo romba soft ah feel panren,apdiye pesu da,emotional
+na school la irundha days nyabagam varudhu,golden days da!,emotional
+na crush paatha calm aagiten,azhagana love feel da,emotional
+past laam flash aagudhu,accept pannitu move aagiru,emotional
+friend kita pesumbodhu azhudhen,true bonding da!,emotional
+na oru deep feeling la iruken,pesu da_naan iruken,emotional
+naan love la thavikaren da,love is beautiful da! naan purinjikaren,love
+aval love ku definition da,love panra feelings romba azhagu da,love
+na avala love panren sincerely,unmayaana love dhaan valarum da,love
+love pannradhu kashtam aana worth it da,nee feel panra kadhal valiosa irukku,love
+kadhal panradhu naan first time da,idhu unmai love pola theriyudhu,love
+na avala love panni oru varusham aagudhu,deep love da ithu naan purinjikaren,love
+avalum ennai love panra maari thonudhu,love la rendu perum feel panradhu nalla vishayam da,love
+oru naal aval sonna I love you marakka mudiyala,adhu life changing moment da,love
+na daily love quotes share panren aval kooda,romance semma da! love thaan inspiration,love
+love la trust dhaan mukkiyam da,nee nambikkai vachurukka nu puriyudhu,love
+nan inikku romba happy da,super da! santhosham kekka romba nalla irukku,happy
+enna surprise kudutha da,super da! santhosham kekka romba nalla irukku,happy
+na ippo dance pannitu iruken,super da! santhosham kekka romba nalla irukku,happy
+life super ah irukku da,super da! santhosham kekka romba nalla irukku,happy
+ippo enaku oru joke sollu da,super da! santhosham kekka romba nalla irukku,happy
+enga team win aayiduchu da,super da! santhosham kekka romba nalla irukku,happy
+enna cake cut pannanga da,super da! santhosham kekka romba nalla irukku,happy
+na oru big prize vanginen da,super da! santhosham kekka romba nalla irukku,happy
+happy tears varuthu da,super da! santhosham kekka romba nalla irukku,happy
+friends kooda time pass panren da,super da! santhosham kekka romba nalla irukku,happy
+today semma santhosham enna glad ah irukku da,romba nalla news da! santhosham kekka enakum happy aagudhu,happy
+naan romba sad ah iruken da,kaadhalikaadha naan iruken da un kooda,sad
+naan defeat aanen da,kaadhalikaadha naan iruken da un kooda,sad
+apdiye azhuda poren da,kaadhalikaadha naan iruken da un kooda,sad
+yaarum ennai purinjika maatanga da,kaadhalikaadha naan iruken da un kooda,sad
+na oru important thing miss panniten da,kaadhalikaadha naan iruken da un kooda,sad
+evanume enna support panna maataanga da,kaadhalikaadha naan iruken da un kooda,sad
+na romba kashta paduren da,kaadhalikaadha naan iruken da un kooda,sad
+ippo enaku yosikka kooda manasukku varala da,kaadhalikaadha naan iruken da un kooda,sad
+life romba tholaindu pona maari irukku,kaadhalikaadha naan iruken da un kooda,sad
+naan naan ah thaan iruken da,kaadhalikaadha naan iruken da un kooda,sad
+naan indha vaaram full relax ah iruken,semma da! enjoy pannu,happy
+veetla oru nalla vishayam nadandhuchu,super! unga veetla sandhosham thaan,happy
+naan oru pudhu movie paathen romba pudichirundhuchu,nalla taste da! enakkuyum recommend pannu,happy
+naan inikku naanaye santhoshapaduthiten,nalla feeling da! self-love important,happy
+kalyana veetla semma fun da,super time da! enjoy pannunga,happy
+naan enna panradhu nu therila,sari da naan iruken support panna,sad
+evanume pesa maatanga,naan iruken da un kooda,sad
+feeling dull da inniku,light ah eduthu da naan kekkaraen,sad
+naan ethachum thavaru senjuten pola,sari pannalaam da naan un kooda iruken,sad
+yethavathu motivation sollu da,pudhu aaramippu panna ready aagiru da,sad
+work la romba tired aagiten,take rest da nee important da,stress
+ippo oru break venum pola irukku,seri break eduthu relax aagu da,stress
+na ippo calm ah irukanum,deep breath da everything will settle,stress
+multi-tasking la keezha poiten,relax da adhigam yosikkaama pannu,stress
+meeting la romba pressure vandhuchu,adhukku aprom peace theva da,stress
+naan oruthana romba pudikkaren,idhu love pola theriyudhu da,love
+na avala paathaale feel aagudhu,romba azhaga describe panre da,love
+aval kita pesanum nu daily thonudhu,pesunga da unakku nimmadhi kidaikkum,love
+aval oru sari smile panna podhum,semma magic da athu,love
+naan daily ava WhatsApp profile check panren,ithu dhaan love symptoms da,love
+ippo pesavae mood illa,seri da naan understanding ah iruken,angry
+na koopiditu iruken,enna aaramikka sollu da,angry
+evan pesama pona kooda romba sandhosham,angry ah irundha chill aagidum da,angry
+naan shout panniye iruken,calm aagiradhu best da,angry
+ivanga enaku headache kudukraanga,avoid pannu da peace theva,angry
+naan onnum feel panna maatengra maari irukku,emotion suppress panna vendam da,depression
+na ippo full blank da,naan un kooda iruken support pannuven,depression
+no one cares about me,naan kaapathren da neeyum matter da,depression
+naan ippove poganum pola thonudhu,wait da naan pesaren,depression
+nee irundha pothum da,naan iruken da va pesalaam,depression
+exam la fail aagiten da,seri vidu da  paathukalam,sad
+unnaku enna pidikkum,unn kitta pesa pidikkum,love
