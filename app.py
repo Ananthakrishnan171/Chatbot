@@ -8,7 +8,7 @@ import os
 # ============================
 # ⚙️ Configs
 # ============================
-MATCH_THRESHOLD = 75 # Match score threshold (0-100)
+MATCH_THRESHOLD = 75  # Match score threshold (0-100)
 
 # ============================
 # 🧠 Load & Train Chatbot Model
@@ -82,6 +82,16 @@ def get_emotion(user_input):
 # ===================
 st.set_page_config("Chatbot", layout="wide")
 
+# 🎉 Moving Banner
+st.markdown("""
+    <div style="background-color:#673AB7; padding: 10px 0; border-radius: 8px; overflow: hidden;">
+        <marquee behavior="scroll" direction="right" scrollamount="6" style="color: white; font-weight: bold; font-size: 18px;">
+            🤖 Welcome to Tanglish Emotion Chatbot – Feel, Chat & Vibe with Music 🎵
+        </marquee>
+    </div>
+""", unsafe_allow_html=True)
+
+# 🖌️ Style
 st.markdown("""
     <style>
     .main-container {
@@ -195,7 +205,6 @@ with col2:
             </div>
         """, unsafe_allow_html=True)
 
-        # 🎧 Embed Spotify player if emotion matched
         spotify_url = spotify_embed_links.get(emotion)
         if spotify_url:
             st.markdown(f"""
