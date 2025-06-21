@@ -111,7 +111,7 @@ st.markdown("""
     </style>
 
     <div class="scrolling-banner">
-        <span> 🧠 "To understand the user's emotions through conversation and respond like a caring friend with personalized replies and mood-based music."</span>
+        <span> 🧠 "    Ipom thaan Unnaku En Kuda Pesa Thonichaa"</span>
     </div>
 """, unsafe_allow_html=True)
 # 🚨 Scrolling Banner End
