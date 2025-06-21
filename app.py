@@ -111,7 +111,7 @@ st.markdown("""
     </style>
 
     <div class="scrolling-banner">
-        <span> 🧠 "    Ipom thaan Unnaku En Kuda Pesa Thonichaa"</span>
+        <span>  " Ipom thaan Unnaku En Kuda Pesa Thonichaa "</span>
     </div>
 """, unsafe_allow_html=True)
 # 🚨 Scrolling Banner End
